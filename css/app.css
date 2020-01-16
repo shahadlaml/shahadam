@@ -13,7 +13,7 @@ nav {
   align-items: center;
   justify-content: center; }
   nav img {
-    width: 96px; }
+    width: 100px; }
 
 ul {
   margin: 0;
@@ -26,15 +26,15 @@ li {
   margin: 0; }
 
 nav {
-  text-align: center;
   width: 100%;
   background: white;
-  height: 60px; }
+  height: 66px;
+  padding-top: 5px; }
   nav ul {
     opacity: 0;
     visibility: hidden; }
     nav ul li {
-      display: inline-block; }
+      display: grid; }
     nav ul a {
       transition-property: all 0.2s linear 0s;
       -moz-transition: all 0.2s linear 0s;
@@ -43,13 +43,12 @@ nav {
       font-size: 16px; }
 
 .logo2 img {
-  width: 200px; }
+  width: 150px; }
 
 .button {
   display: inline;
   position: absolute;
   right: 3%;
-  top: 6px;
   z-index: 999;
   font-size: 30px; }
   .button a {
@@ -82,22 +81,43 @@ nav {
   position: fixed;
   top: 0;
   height: 100%;
-  width: 100%;
+  width: 50%;
   background: #1C5069;
   overflow: auto;
-  z-index: 99; }
+  z-index: 99;
+  left: 50%; }
 
 .wrap {
   color: #1C5069; }
-  .wrap ul.wrap-nav li a {
+  .wrap ul.wrap-nav a {
     color: #EBE7D4;
     text-decoration: none;
     transition-property: all 0.2s linear 0s;
     -moz-transition: all 0.2s linear 0s;
     -webkit-transition: all 0.2s linear 0s;
     -o-transition: all 0.2s linear 0s; }
-    .wrap ul.wrap-nav li a:hover {
+    .wrap ul.wrap-nav a:hover {
       color: #52AAAB; }
+
+.wrap-nav {
+  margin-top: 30%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 8px auto 8px;
+  align-content: space-around;
+  justify-content: center;
+  justify-items: center;
+  grid-gap: 15px;
+  font-size: 1.3em; }
+  .wrap-nav li {
+    grid-column-start: 2;
+    grid-column-end: 3; }
+  .wrap-nav .logo2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    grid-column-start: 1;
+    grid-column-end: 4; }
 
 /* LANDING PAGE */
 .box3 {

@@ -6,7 +6,7 @@ nav
 	align-items: center
 	justify-content: center
 	img
-		width: 96px
+		width: 100px
 
 ul
 	margin: 0
@@ -19,15 +19,15 @@ li
 	margin: 0
 
 nav
-	text-align: center
 	width: 100%
 	background: white
-	height: 60px
+	height: 66px
+	padding-top: 5px
 	ul
 		opacity: 0
 		visibility: hidden
 		li
-			display: inline-block
+			display: grid
 		a
 			transition-property: all .2s linear 0s
 			-moz-transition: all .2s linear 0s
@@ -37,13 +37,12 @@ nav
 
 .logo2
 	img
-		width: 200px
+		width: 150px
 
 .button
 	display: inline
 	position: absolute
 	right: 3%
-	top: 6px
 	z-index: 999
 	font-size: 30px
 	a
@@ -58,6 +57,8 @@ nav
 		-moz-transition: all .2s linear 0s
 		-webkit-transition: all .2s linear 0s
 		-o-transition: all .2s linear 0s
+
+
 	&:hover
 		&:after
 			color: $dark-blue
@@ -80,24 +81,44 @@ nav
 	position: fixed
 	top: 0
 	height: 100%
-	width: 100%
+	width: 50%
 	background: $dark-blue
 	overflow: auto
 	z-index: 99
+	left: 50%
+
 .wrap
 	color: $dark-blue
 
 	ul
 		&.wrap-nav
+			a
+				color: $white
+				text-decoration: none
+				transition-property: all .2s linear 0s
+				-moz-transition: all .2s linear 0s
+				-webkit-transition: all .2s linear 0s
+				-o-transition: all .2s linear 0s
+				&:hover
+					color: $light-blue
 
-			li
+.wrap-nav
+	margin-top: 30%
+	display: grid
+	justify-content: center
+	align-content: center
+	grid-template-columns: 8px auto 8px
+	align-content: space-around
+	justify-content: center
+	justify-items: center
+	grid-gap: 15px
+	font-size: 1.3em
+	li
+		grid-column-start: 2
+		grid-column-end: 3
 
-				a
-					color: $white
-					text-decoration: none
-					transition-property: all .2s linear 0s
-					-moz-transition: all .2s linear 0s
-					-webkit-transition: all .2s linear 0s
-					-o-transition: all .2s linear 0s
-					&:hover
-						color: $light-blue
+	.logo2
+		margin-top: 20px
+		margin-bottom: 30px
+		grid-column-start: 1
+		grid-column-end: 4
