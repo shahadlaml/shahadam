@@ -2,8 +2,11 @@
 
 
 nav
+	display: flex
+	align-items: center
+	justify-content: center
 	img
-		width: 90px
+		width: 96px
 
 ul
 	margin: 0
@@ -19,23 +22,27 @@ nav
 	text-align: center
 	width: 100%
 	background: white
+	height: 60px
 	ul
 		opacity: 0
 		visibility: hidden
 		li
-			//display: inline-block
-			a
-				transition-property: all .2s linear 0s
-				-moz-transition: all .2s linear 0s
-				-webkit-transition: all .2s linear 0s
-				-o-transition: all .2s linear 0s
-				font-size: 16px
-				&:hover
-					//color: #34B484
+			display: inline-block
+		a
+			transition-property: all .2s linear 0s
+			-moz-transition: all .2s linear 0s
+			-webkit-transition: all .2s linear 0s
+			-o-transition: all .2s linear 0s
+			font-size: 16px
+
+.logo2
+	img
+		width: 200px
+
 .button
 	display: inline
 	position: absolute
-	right: 50px
+	right: 3%
 	top: 6px
 	z-index: 999
 	font-size: 30px
