@@ -6,5 +6,16 @@
     width: 50%;
   	left: 50%;
   }
+  .header h2{
+    padding-top: 66px;
+    font-size: 10px;
   }
+  }
+
+
+/*the h2 landing page title shading*/
+.header h2{
+-webkit-text-shadow: 0px 0px 7px #1C5069;
+-moz-text-shadow: 0px 0px 7px #1C5069;
+text-shadow: 0px 0px 7px #1C5069;
 }

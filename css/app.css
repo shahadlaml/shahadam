@@ -126,11 +126,23 @@ nav {
   background-image: url(/img/placehplders/pic.svg);
   background-size: cover;
   height: 95vh;
-  width: 100%; }
+  width: 100%;
+  padding-top: -66px; }
   #particles-js h2 {
     padding: 0;
     margin: 0;
-    padding-top: 66px; }
+    font-size: 5em;
+    position: absolute;
+    color: #EBE7D4;
+    padding-left: 2%;
+    padding-right: 4%; }
+
+.header {
+  width: 100%;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 /* GALLERY */
 .box4 {
