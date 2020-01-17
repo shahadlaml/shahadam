@@ -147,6 +147,47 @@ nav {
   justify-content: center;
   align-items: center; }
 
+/*landing page projects cards style */
+.projects-container {
+  padding: 30px;
+  padding-left: 3%;
+  padding-right: 3%; }
+  .projects-container p {
+    text-align: center;
+    color: #1C5069; }
+
+.projects {
+  padding: 15px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+
+.album {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 2px;
+  text-align: center; }
+
+.project__name {
+  padding-top: 0.25rem;
+  text-align: center;
+  color: #1C5069;
+  font-size: 20px; }
+
+.project__descreption {
+  padding-top: 0.25rem;
+  text-align: center;
+  color: #52AAAB;
+  font-size: 14px;
+  padding-bottom: 40px; }
+
+.project-img {
+  width: 100%; }
+
 /* GALLERY */
 .box4 {
   background-color: violet; }
