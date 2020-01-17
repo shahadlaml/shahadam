@@ -1,3 +1,5 @@
+
+//navigation toggle btn
 $(document).ready(function(){
     $(".button a").click(function(){
         $(".overlay").fadeToggle(200);
@@ -9,3 +11,6 @@ $('.overlay').on('click', function(){
     $(".button a").toggleClass('btn-open').toggleClass('btn-close');
     open = false;
 });
+
+
+//stiky navigation

@@ -1,6 +1,4 @@
 // navigation stylesheet
-
-
 nav
 	display: flex
 	align-items: center
@@ -35,9 +33,9 @@ nav
 			-o-transition: all .2s linear 0s
 			font-size: 16px
 
-.logo2
-	img
-		width: 150px
+// .logo2
+// 	img
+// 		width: 150px
 
 .button
 	display: inline
@@ -66,7 +64,7 @@ nav
 //the x btn
 .btn-close
 	&:after
-		color: $white
+		color: $dark-blue
 		content: "\f00d"
 		font-family: "FontAwesome"
 		transition-property: all .2s linear 0s
@@ -81,11 +79,11 @@ nav
 	position: fixed
 	top: 0
 	height: 100%
-	width: 50%
+	width: 30%
 	background: $dark-blue
 	overflow: auto
 	z-index: 99
-	left: 50%
+	left: 70%
 
 .wrap
 	color: $dark-blue
@@ -103,7 +101,7 @@ nav
 					color: $light-blue
 
 .wrap-nav
-	margin-top: 30%
+	margin-top: 100px
 	display: grid
 	justify-content: center
 	align-content: center
@@ -117,8 +115,12 @@ nav
 		grid-column-start: 2
 		grid-column-end: 3
 
-	.logo2
-		margin-top: 20px
-		margin-bottom: 30px
-		grid-column-start: 1
-		grid-column-end: 4
+	// .logo2
+	// 	margin-top: 20px
+	// 	margin-bottom: 30px
+	// 	grid-column-start: 1
+	// 	grid-column-end: 4
+
+nav
+	position: fixed
+	z-index: 100

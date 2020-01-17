@@ -4,8 +4,10 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #52AAAB;
   font-family: "Cairo", sans-serif; }
+
+h1 {
+  display: none; }
 
 /* LAYOUT */
 nav {
@@ -42,9 +44,6 @@ nav {
       -o-transition: all 0.2s linear 0s;
       font-size: 16px; }
 
-.logo2 img {
-  width: 150px; }
-
 .button {
   display: inline;
   position: absolute;
@@ -66,7 +65,7 @@ nav {
   color: #1C5069; }
 
 .btn-close:after {
-  color: #EBE7D4;
+  color: #1C5069;
   content: "";
   font-family: "FontAwesome";
   transition-property: all 0.2s linear 0s;
@@ -81,11 +80,11 @@ nav {
   position: fixed;
   top: 0;
   height: 100%;
-  width: 50%;
+  width: 30%;
   background: #1C5069;
   overflow: auto;
   z-index: 99;
-  left: 50%; }
+  left: 70%; }
 
 .wrap {
   color: #1C5069; }
@@ -100,7 +99,7 @@ nav {
       color: #52AAAB; }
 
 .wrap-nav {
-  margin-top: 30%;
+  margin-top: 100px;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -113,15 +112,21 @@ nav {
   .wrap-nav li {
     grid-column-start: 2;
     grid-column-end: 3; }
-  .wrap-nav .logo2 {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    grid-column-start: 1;
-    grid-column-end: 4; }
+
+nav {
+  position: fixed;
+  z-index: 100; }
 
 /* LANDING PAGE */
-.box3 {
-  background-color: yellow; }
+#particles-js {
+  background-image: url(/img/placehplders/pic.svg);
+  background-size: cover;
+  height: 95vh;
+  width: 100%; }
+  #particles-js h2 {
+    padding: 0;
+    margin: 0;
+    padding-top: 66px; }
 
 /* GALLERY */
 .box4 {

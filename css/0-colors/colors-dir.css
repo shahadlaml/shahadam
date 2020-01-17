@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$light-blue".
+Error: Undefined variable: "$font".
         on line 10 of sass/0-colors/colors-dir.sass
 
 5: //@import "spinner"
@@ -7,8 +7,11 @@ Error: Undefined variable: "$light-blue".
 7: body
 8: 	margin: 0
 9: 	padding: 0
-10: 	background-color: $light-blue
-11: 	font-family: $font
+10: 	font-family: $font
+11: //	margin-top: 66px
+12: 
+13: h1
+14: 	display: none
 
 Backtrace:
 sass/0-colors/colors-dir.sass:10
@@ -65,4 +68,4 @@ sass/0-colors/colors-dir.sass:10
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$light-blue\".\A         on line 10 of sass/0-colors/colors-dir.sass\A \A 5: //@import \"spinner\"\A 6: /*basics*/\A 7: body\A 8: 	margin: 0\A 9: 	padding: 0\A 10: 	background-color: $light-blue\A 11: 	font-family: $font"; }
+  content: "Error: Undefined variable: \"$font\".\A         on line 10 of sass/0-colors/colors-dir.sass\A \A 5: //@import \"spinner\"\A 6: /*basics*/\A 7: body\A 8: 	margin: 0\A 9: 	padding: 0\A 10: 	font-family: $font\A 11: //	margin-top: 66px\A 12: \A 13: h1\A 14: 	display: none"; }

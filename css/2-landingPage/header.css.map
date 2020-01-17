@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAa;EACX,gBAAgB,EAAE,8BAA8B;EAChD,eAAe,EAAE,KAAK;EACtB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,gBAAE;IACA,OAAO,EAAE,CAAC;IACV,MAAM,EAAE,CAAC;IACT,WAAW,EAAE,IAAI",
+"sources": ["../../sass/2-landingPage/header.sass"],
+"names": [],
+"file": "header.css"
+}
