@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";;AAMA,IAAI;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC",
-"sources": ["../../sass/0-colors/colors-dir.sass"],
-"names": [],
-"file": "colors-dir.css"
-}

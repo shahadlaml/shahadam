@@ -121,6 +121,23 @@ nav {
   width: 50px;
   padding: 6px; }
 
+/*footer styles */
+footer {
+  width: 100%;
+  background-color: #1C5069;
+  color: #EBE7D4;
+  margin-top: 80px; }
+  footer a {
+    text-decoration: none;
+    color: #EBE7D4; }
+    footer a:hover {
+      color: #52AAAB; }
+  footer p {
+    font-size: 0.8em;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: -30px; }
+
 /* LANDING PAGE */
 #particles-js {
   background-image: url(/img/placehplders/pic.svg);
@@ -151,7 +168,8 @@ nav {
 .projects-container {
   padding: 30px;
   padding-left: 3%;
-  padding-right: 3.5%; }
+  padding-right: 3.5%;
+  padding-bottom: 90px; }
   .projects-container p {
     text-align: center;
     color: #1C5069;
@@ -228,6 +246,34 @@ nav {
     border: 2px solid #52AAAB;
     border-left: 2px solid rgba(255, 0, 0, 0);
     border-bottom: 2px solid rgba(255, 0, 0, 0); }
+
+.contact-header {
+  background-image: url(/img/placehplders/pic.svg);
+  height: 90px;
+  width: 100%;
+  background-size: cover; }
+  .contact-header h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+    position: absolute;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 200px;
+    margin-top: 1%; }
+
+.social-list {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .social-list li img {
+    width: 70px; }
+
+.contact-btn {
+  padding-top: 3%; }
 
 /* GALLERY */
 .box4 {
