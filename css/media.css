@@ -24,11 +24,14 @@ text-shadow: 0px 0px 7px #1C5069;
   }
 }
 
-
+/*the  landing page projects list responsive mobile size
+*/
 @media (max-width: 600px) {
 
   .projects-container{
-    padding: 30px;
+    padding: 10px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
   }
   .projects {
     grid-row-gap: 30px;
@@ -36,5 +39,15 @@ text-shadow: 0px 0px 7px #1C5069;
   .album {
     grid-template-columns: 1fr;
     align-items: initial;
+    justify-content: center;
   }
+  .project__descreption{
+    font-size: 1em;
+    text-align: center;
+  }
+  .project__name{
+    text-align: center;
+  }
+
+
 }

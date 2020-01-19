@@ -151,10 +151,12 @@ nav {
 .projects-container {
   padding: 30px;
   padding-left: 3%;
-  padding-right: 3%; }
+  padding-right: 3.5%; }
   .projects-container p {
     text-align: center;
-    color: #1C5069; }
+    color: #1C5069;
+    font-size: 2em;
+    font-weight: 700; }
 
 .projects {
   padding: 15px;
@@ -174,19 +176,20 @@ nav {
 
 .project__name {
   padding-top: 0.25rem;
-  text-align: center;
+  text-align: right;
   color: #1C5069;
-  font-size: 20px; }
+  font-size: 1.5em; }
 
 .project__descreption {
   padding-top: 0.25rem;
-  text-align: center;
   color: #52AAAB;
-  font-size: 14px;
-  padding-bottom: 40px; }
+  font-size: 1em;
+  padding-bottom: 40px;
+  text-align: right; }
 
 .project-img {
-  width: 100%; }
+  width: 100%;
+  border-radius: 10px; }
 
 /* GALLERY */
 .box4 {
