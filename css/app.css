@@ -112,6 +112,12 @@ nav {
   .wrap-nav li {
     grid-column-start: 2;
     grid-column-end: 3; }
+    .wrap-nav li a img:hover {
+      opacity: 0.5;
+      transition-property: all 0.2s linear 0s;
+      -moz-transition: all 0.2s linear 0s;
+      -webkit-transition: all 0.2s linear 0s;
+      -o-transition: all 0.2s linear 0s; }
 
 nav {
   position: fixed;
@@ -163,6 +169,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center; }
+  .header p {
+    font-size: 20px;
+    color: #EBE7D4; }
 
 /*landing page projects cards style */
 .projects-container {
@@ -193,9 +202,9 @@ footer {
   border-radius: 2px;
   text-align: center; }
   .album:hover {
-    -webkit-box-shadow: 1px 3px 0px 0px #ebe7d4;
-    -moz-box-shadow: 1px 3px 0px 0px #ebe7d4;
-    box-shadow: 1px 3px 0px 0px #ebe7d4; }
+    -webkit-box-shadow: 0px 3px 0px 0px #ebe7d4;
+    -moz-box-shadow: 0px 3px 0px 0px #ebe7d4;
+    box-shadow: 0px 3px 0px 0px #ebe7d4; }
 
 .project__name {
   padding-top: 0.25rem;
@@ -261,7 +270,7 @@ footer {
     display: flex;
     justify-content: center;
     width: 100%;
-    min-height: 200px;
+    min-height: 20px;
     margin-top: 1%; }
 
 .social-list {
@@ -269,8 +278,12 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center; }
-  .social-list li img {
-    width: 70px; }
+  .social-list li {
+    padding: 6px; }
+    .social-list li img {
+      width: 70px; }
+    .social-list li:hover {
+      opacity: 0.5; }
 
 .contact-btn {
   padding-top: 3%; }
