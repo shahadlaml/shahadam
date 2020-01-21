@@ -320,6 +320,8 @@ footer {
 .gallery-container {
   width: 90%;
   padding: 0 5%; }
+  .gallery-container strong {
+    font-size: 2em; }
   .gallery-container p {
     text-align: right;
     color: #1C5069;
@@ -330,6 +332,13 @@ footer {
   padding: 3%; }
   .gallery-info p {
     width: 1000px; }
+
+.gaa-pdf-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .gaa-pdf-container iframe {
+    width: 60%; }
 
 /* MODULES */
 .box6 {

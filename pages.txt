@@ -7,7 +7,8 @@ index.html
 projects.html
 
 gaa.html
-
+  gaa-book.html
+  
 mismar.html
 
 catbook.html
