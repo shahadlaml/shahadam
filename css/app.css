@@ -301,6 +301,36 @@ footer {
   margin-top: 90px;
   padding: 0 2%; }
 
+.gallery {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 300px 300px;
+  padding: 0;
+  list-style: none; }
+  .gallery li img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: block;
+    object-fit: cover; }
+    .gallery li img:hover {
+      opacity: 0.9; }
+
+.gallery-container {
+  width: 90%;
+  padding: 0 5%; }
+  .gallery-container p {
+    text-align: right;
+    color: #1C5069;
+    order: 2; }
+
+.gallery-info {
+  display: flex;
+  padding: 3%; }
+  .gallery-info p {
+    width: 1000px; }
+
 /* MODULES */
 .box6 {
   background-color: gray; }

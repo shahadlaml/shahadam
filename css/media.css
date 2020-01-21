@@ -54,6 +54,22 @@ text-shadow: 0px 0px 7px #1C5069;
   .projects-btn{
   padding-bottom: 10%;
   }
+  .gallery-info{
+    display: block;
+  }
+  .gallery-info p{
+    width: auto;
+  }
+}
+/*for the project mockup page grid*/
+@media (min-width: 480px) {
+  .gallery li {
+    &:first-child {
+      grid-area: 1 / 1 / span 2 / span 2;
+    }
 
-
+    &:nth-child(2n) {
+      grid-column: span 2;
+    }
+  }
 }
