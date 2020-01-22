@@ -60,6 +60,9 @@ text-shadow: 0px 0px 7px #1C5069;
   .gallery-info p{
     width: auto;
   }
+  .skill-container{
+    grid-template-columns: repeat(1, 1fr);
+    }
 }
 /*for the project mockup page grid*/
 @media (min-width: 480px) {
