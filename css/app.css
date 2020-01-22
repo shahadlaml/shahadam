@@ -4,7 +4,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Cairo", sans-serif; }
+  font-family: "Cairo", sans-serif;
+  color: #1C5069; }
 
 h1 {
   display: none; }
@@ -345,7 +346,27 @@ footer {
   background-color: gray; }
 
 /* MODULES */
-.box7 {
-  background-color: teal; }
+.cv-container {
+  width: 80%;
+  padding: 0 5%;
+  text-align: right;
+  padding-top: 7%;
+  padding-bottom: 50px; }
+
+.cv-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: baseline;
+  padding-bottom: 20px; }
+  .cv-info img {
+    width: 70px; }
+  .cv-info h6 {
+    padding: 0;
+    margin: 0;
+    font-size: 200%;
+    padding-right: 10px; }
+  .cv-info p {
+    width: 100%; }
 
 /*# sourceMappingURL=app.css.map */
