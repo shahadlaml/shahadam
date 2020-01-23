@@ -25,3 +25,5 @@ contact.html
 skills.html
 
 cv.html
+
+designbrief.html
