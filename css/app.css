@@ -16,7 +16,7 @@ nav {
   align-items: center;
   justify-content: center; }
   nav img {
-    width: 100px; }
+    width: 90px; }
 
 ul {
   margin: 0;
@@ -275,12 +275,14 @@ footer {
     margin-top: 1%; }
 
 .social-list {
+  width: 100%;
   margin-top: 40px;
   display: flex;
-  align-items: center;
-  justify-content: center; }
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
   .social-list li {
-    padding: 6px; }
+    padding: 10px; }
     .social-list li img {
       width: 70px; }
     .social-list li:hover {

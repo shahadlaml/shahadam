@@ -76,3 +76,20 @@ text-shadow: 0px 0px 7px #1C5069;
     }
   }
 }
+
+
+
+/* for the ipad screen cv page */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+.cv-container{
+  padding: 13% 0;
+}
+.cv-info{
+  padding-left: 55px;
+}
+
+
+ }
