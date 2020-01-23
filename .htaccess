@@ -1,0 +1,11 @@
+#here is the 404 error thing
+
+ErrorDocument 404 /not-found-page.html
+
+
+# here is the remove extention from link thing
+
+#RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME}\.html -f
+#RewriteRule ^(.*)$ $1.html [NC,L]
