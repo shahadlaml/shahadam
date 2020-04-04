@@ -17,6 +17,10 @@ spices.html
 
 eliteclinic.html
 
+easetop.html
+
+crots.html
+
 
 projects.html
 
